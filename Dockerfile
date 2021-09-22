@@ -34,9 +34,6 @@ RUN apt-get update \
 RUN git clone https://github.com/facebookresearch/pysparnn.git pysparnn
 RUN pip install -e pysparnn
 
-WORKDIR /home/Olympus
-COPY . /home/Olympus
-
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
