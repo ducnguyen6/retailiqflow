@@ -1,0 +1,10 @@
+default_args:
+  owner: tu.nguyen12@tiki.vn 
+schedule_interval: "@once"
+tags:
+  - retailiq 
+  - retailiqflow
+tasks:
+  dummy_task:
+    operator: DummyOperator 
+    name: dummy

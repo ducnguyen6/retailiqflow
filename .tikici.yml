@@ -1,5 +1,7 @@
 version: '2'
-config: {  }
+config: 
+  slack_notify: true
+  slack_channel: retailiqflow-ci
 environment:
   BUILD_IMAGE: 'maven:3.6-jdk-11'
 jobs:
