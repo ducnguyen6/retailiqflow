@@ -5,6 +5,6 @@ tags:
   - retailiq 
   - retailiqflow
 tasks:
-  dummy_task:
-    operator: DummyOperator 
-    name: dummy
+  bash_task:
+    operator: BashOperator 
+    name: echo "hello world!"
