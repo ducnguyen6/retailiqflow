@@ -7,4 +7,4 @@ tags:
 tasks:
   bash_task:
     operator: BashOperator 
-    name: echo "hello world!"
+    bash_command: echo "hello world!"
